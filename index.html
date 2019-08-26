@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: lightgray">
+        <a class="navbar-brand" href="#"><h2>Currency Pair Correlations</h2></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="comparison.html">Comparison</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Data</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="audusd_eurusd.html">AUD/USD to EUR/USD</a>
+              <a class="dropdown-item" href="audusd_usdcad.html">AUD/USD to USD/CAD</a>
+              <a class="dropdown-item" href="audusd_eurusd.html">USD/CAD to EUR/USD</a>
+              <a class="dropdown-item" href="audusd_eurusd.html">USD/JPY to AUD/USD</a>
+              <a class="dropdown-item" href="audusd_eurusd.html">USD/JPY to EUR/USD</a>
+              <a class="dropdown-item" href="audusd_eurusd.html">USD/JPY to USD/CAD</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      </nav>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7 col-sm-12">
+          <div class="card" style="background-color: lightblue">
+            <div class="card-body">
+              <h3 class="card-title">Summary</h3>
+              <hr>
+              <a class="img-fluid">
+                  <img src="Images/AUDUSD_by_EURUSD.png" alt="..." class="img-fluid" width="300" height="187.5" align="left" align="top" style="margin: 15px" >
+              </a>
+              <p class="card-text" style="font-size:small">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-5 col-sm-12">
+          <div class="card" style="background-color: lightblue">
+            <div class="card-body">
+              <h3 class="card-title">Visualizations</h3>
+              <hr>
+              <div class="row">
+                <div class="col-md-6 col-sm-4">
+                  <a class="img-fluid" href="audusd_eurusd.html">
+                    <img src="Images/AUDUSD_by_EURUSD.png" alt="..." class="img-fluid" style="padding: 4px">
+                  </a>
+                </div>
+                <div class="col-md-6 col-sm-4">
+                  <a class="img-fluid" href="audusd_usdcad.html">
+                    <img src="Images/AUDUSD_by_USDCAD.png" alt="..." class="img-fluid" style= "padding: 4px">
+                  </a>
+                </div>
+                <div class="col-md-6 col-sm-4">
+                  <a class="img-fluid" href="audusd_eurusd.html">
+                    <img src="Images/USDCAD_by_EURUSD.png" alt="..." class="img-fluid" style= "padding: 4px">
+                  </a>
+                </div>
+                <div class="col-md-6 col-sm-4">
+                  <a class="img-fluid" href="usdjpy_audusd.html">
+                    <img src="Images/USDJPY_by_AUDUSD.png" alt="..." class="img-fluid" style= "padding: 4px">
+                  </a>
+                </div>
+                <div class="col-md-6 col-sm-4">
+                  <a class="img-fluid" href="usdjpy_eurusd.html">
+                    <img src="Images/USDJPY_by_EURUSD.png" alt="..." class="img-fluid" style=  "padding: 4px">
+                  </a>
+                </div>
+                <div class="col-md-6 col-sm-4">
+                  <a class="img-fluid" href="usdjpy_usdcad.html">
+                    <img src="Images/USDJPY_by_USDCAD.png" alt="..." class="img-fluid" style= "padding: 4px">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
