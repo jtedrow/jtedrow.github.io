@@ -50,69 +50,46 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-md-7 col-sm-12">
+        <div class="col">
           <div class="card border border-dark" style="background-color: lightblue">
             <div class="card-body">
-              <h3 class="card-title">Summary</h3>
+              <h3 class="card-title">Comparisons</h3>
               <hr>
-              <a class="img-fluid">
-                  <img src="Images/AUDUSD_by_EURUSD.png" alt="..." class="img-fluid" width="300" height="187.5" align="left" style="padding: 15px" >
-              </a>
-              <p class="card-text" style="font-size:small">
-                For this project, I chose to focus on four currency pairs: the Euro/US Dollar
-                (EUR/USD), the US Dollar/Japanese Yen (USD/JPY), the Australian Dollar/US Dollar (AUD/USD),
-                and the US Dollar/Canadian Dollar (USD/CAD).
-                <br>
-                <br>
-                To find the correlation between the currency pairs, I first had to gather the daily closing prices. I chose to gather prices dating back to
-                December 2013 (roughly 1,500 data points). To gather the prices, I used the <a href="https://developer.oanda.com/">Oanda API</a>. I used python to
-                load the data into a pandas dataframe and then used matplotlib to create scatter plots, which are displayed here. To find
-                the correlation, I simply used the pandas function .corr().
-                <br>
-                <br>
-                For futures analysis, I would like to extend this project to include additional currency pairs. While I don't believe correlation can give any
-                insight to where a currency pair might trade in the future, I believe there is value in knowing which pairs are likely to trade together, or vice versa.
-                Knowing correlations can help traders better manage their risk, so as not to be long or short several pairs that have high correlations with one another.
-
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-5 col-sm-12">
-          <div class="card border border-dark" style="background-color: lightblue">
-            <div class="card-body">
-              <h3 class="card-title">Visualizations</h3>
-              <hr>
+              <p>Click any plot to get an in-depth analysis.</p>
               <div class="row">
-                <div class="col-md-6 col-sm-4">
+                <div class="col-md-6 col-xs">
                   <a class="img-fluid" href="audusd_eurusd.html">
-                    <img src="Images/AUDUSD_by_EURUSD.png" alt="..." class="img-fluid" style="padding: 4px">
+                    <img src="Images/AUDUSD_by_EURUSD.png" alt="..." class="img-fluid" style="padding: 16px">
                   </a>
                 </div>
-                <div class="col-md-6 col-sm-4">
+                <hr>
+                <div class="col-md-6 col-xs">
                   <a class="img-fluid" href="audusd_usdcad.html">
-                    <img src="Images/AUDUSD_by_USDCAD.png" alt="..." class="img-fluid" style= "padding: 4px">
+                    <img src="Images/AUDUSD_by_USDCAD.png" alt="..." class="img-fluid" style= "padding: 16px">
                   </a>
                 </div>
-                <div class="col-md-6 col-sm-4">
-                  <a class="img-fluid" href="audusd_eurusd.html">
-                    <img src="Images/USDCAD_by_EURUSD.png" alt="..." class="img-fluid" style= "padding: 4px">
+                <hr>
+                <div class="col-md-6 col-xs">
+                  <a class="img-fluid" href="usdcad_eurusd.html">
+                    <img src="Images/USDCAD_by_EURUSD.png" alt="..." class="img-fluid" style= "padding: 16px">
                   </a>
                 </div>
-                <div class="col-md-6 col-sm-4">
+                <hr>
+                <div class="col-md-6 col-xs">
                   <a class="img-fluid" href="usdjpy_audusd.html">
-                    <img src="Images/USDJPY_by_AUDUSD.png" alt="..." class="img-fluid" style= "padding: 4px">
+                    <img src="Images/USDJPY_by_AUDUSD.png" alt="..." class="img-fluid" style= "padding: 16px">
                   </a>
                 </div>
-                <div class="col-md-6 col-sm-4">
+                <hr>
+                <div class="col-md-6 col-xs">
                   <a class="img-fluid" href="usdjpy_eurusd.html">
-                    <img src="Images/USDJPY_by_EURUSD.png" alt="..." class="img-fluid" style=  "padding: 4px">
+                    <img src="Images/USDJPY_by_EURUSD.png" alt="..." class="img-fluid" style=  "padding: 16px">
                   </a>
                 </div>
-                <div class="col-md-6 col-sm-4">
+                <hr>
+                <div class="col-md-6 col-xs">
                   <a class="img-fluid" href="usdjpy_usdcad.html">
-                    <img src="Images/USDJPY_by_USDCAD.png" alt="..." class="img-fluid" style= "padding: 4px">
+                    <img src="Images/USDJPY_by_USDCAD.png" alt="..." class="img-fluid" style= "padding: 16px">
                   </a>
                 </div>
               </div>
@@ -121,7 +98,7 @@
         </div>
       </div>
 
-    <!-- Footer -->
+      <!-- Footer -->
     <div class="container">
       <br>
       <br>
@@ -139,19 +116,10 @@
     </div>
 <!-- Footer -->
 
-
-
-
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-
-
-  </div>
   </body>
-
 </html>
