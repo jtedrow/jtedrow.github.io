@@ -1,0 +1,78 @@
+.iframeContainer {
+  padding: 20px;
+  border: 1px solid #e3e3e3;
+}
+
+/* Sticky Footer rules (https://getbootstrap.com/examples/sticky-footer/) */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Padding bottom by footer height */
+  padding-bottom: 80px;
+}
+
+.tooltip {
+  position: absolute;
+  width: 170px;
+  height: 70px;
+  padding: 8px;
+  font: 12px sans-serif;
+  color: white;
+  text-align: center;
+  background: #6bbba1;
+  border-color: black;
+  border-radius: 100px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+circle {
+  fill: #8e6c8a;
+  opacity: 0.95;
+  stroke: #e5e2e0;
+  stroke-width: 2px;
+
+}
+
+.tick text {
+  font-size: 1.2em;
+  fill:#635f5d;
+  padding-top: 2em;
+  font-weight: bold;
+
+}
+
+.tick line {
+  stroke: #ffffff;
+  opacity: 0.5;
+  stroke-width: 2px;
+
+}
+
+.title {
+  font-size: 3em;
+  fill: #635f5d;
+}
+
+
+   
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%; /* Set the fixed height of the footer here */
+  height: 10px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+#footer p {
+  margin: 0;
+  font-size: 16px;
+}

@@ -1,2 +1,1 @@
-# jtedrow.github.io
-GW Bootcamp
+# D3-challenge
